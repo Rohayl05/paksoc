@@ -10,4 +10,5 @@ urlpatterns = [
     # Authentication endpoints (replacing AuthController)
     path('auth/register/', views.register, name='register'),
     path('auth/login/', views.login, name='login'),
+    path('auth/change-password/', views.change_password, name='change-password'),
 ]
